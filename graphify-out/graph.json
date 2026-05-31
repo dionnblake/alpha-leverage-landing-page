@@ -1,0 +1,1533 @@
+{
+  "directed": false,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "deploy-hostinger.mjs",
+      "file_type": "code",
+      "source_file": "deploy-hostinger.mjs",
+      "source_location": "L1",
+      "id": "deploy_hostinger_mjs",
+      "community": 4,
+      "norm_label": "deploy-hostinger.mjs"
+    },
+    {
+      "label": "__filename",
+      "file_type": "code",
+      "source_file": "deploy-hostinger.mjs",
+      "source_location": "L6",
+      "id": "alpha_leverage_website_landing_page_deploy_hostinger_filename",
+      "community": 4,
+      "norm_label": "__filename"
+    },
+    {
+      "label": "__dirname",
+      "file_type": "code",
+      "source_file": "deploy-hostinger.mjs",
+      "source_location": "L7",
+      "id": "alpha_leverage_website_landing_page_deploy_hostinger_dirname",
+      "community": 4,
+      "norm_label": "__dirname"
+    },
+    {
+      "label": "archivePath",
+      "file_type": "code",
+      "source_file": "deploy-hostinger.mjs",
+      "source_location": "L9",
+      "id": "alpha_leverage_website_landing_page_deploy_hostinger_archivepath",
+      "community": 4,
+      "norm_label": "archivepath"
+    },
+    {
+      "label": "transport",
+      "file_type": "code",
+      "source_file": "deploy-hostinger.mjs",
+      "source_location": "L12",
+      "id": "alpha_leverage_website_landing_page_deploy_hostinger_transport",
+      "community": 4,
+      "norm_label": "transport"
+    },
+    {
+      "label": "client",
+      "file_type": "code",
+      "source_file": "deploy-hostinger.mjs",
+      "source_location": "L21",
+      "id": "alpha_leverage_website_landing_page_deploy_hostinger_client",
+      "community": 4,
+      "norm_label": "client"
+    },
+    {
+      "label": "hostinger-cli.mjs",
+      "file_type": "code",
+      "source_file": "hostinger-cli.mjs",
+      "source_location": "L1",
+      "id": "hostinger_cli_mjs",
+      "community": 2,
+      "norm_label": "hostinger-cli.mjs"
+    },
+    {
+      "label": "headers",
+      "file_type": "code",
+      "source_file": "hostinger-cli.mjs",
+      "source_location": "L7",
+      "id": "alpha_leverage_website_landing_page_hostinger_cli_headers",
+      "community": 2,
+      "norm_label": "headers"
+    },
+    {
+      "label": "showHelp()",
+      "file_type": "code",
+      "source_file": "hostinger-cli.mjs",
+      "source_location": "L13",
+      "id": "alpha_leverage_website_landing_page_hostinger_cli_showhelp",
+      "community": 2,
+      "norm_label": "showhelp()"
+    },
+    {
+      "label": "listWebsites()",
+      "file_type": "code",
+      "source_file": "hostinger-cli.mjs",
+      "source_location": "L23",
+      "id": "alpha_leverage_website_landing_page_hostinger_cli_listwebsites",
+      "community": 2,
+      "norm_label": "listwebsites()"
+    },
+    {
+      "label": "resolveUsername()",
+      "file_type": "code",
+      "source_file": "hostinger-cli.mjs",
+      "source_location": "L35",
+      "id": "alpha_leverage_website_landing_page_hostinger_cli_resolveusername",
+      "community": 2,
+      "norm_label": "resolveusername()"
+    },
+    {
+      "label": "fetchUploadCredentials()",
+      "file_type": "code",
+      "source_file": "hostinger-cli.mjs",
+      "source_location": "L47",
+      "id": "alpha_leverage_website_landing_page_hostinger_cli_fetchuploadcredentials",
+      "community": 2,
+      "norm_label": "fetchuploadcredentials()"
+    },
+    {
+      "label": "uploadFileZeroDep()",
+      "file_type": "code",
+      "source_file": "hostinger-cli.mjs",
+      "source_location": "L58",
+      "id": "alpha_leverage_website_landing_page_hostinger_cli_uploadfilezerodep",
+      "community": 2,
+      "norm_label": "uploadfilezerodep()"
+    },
+    {
+      "label": "triggerDeploy()",
+      "file_type": "code",
+      "source_file": "hostinger-cli.mjs",
+      "source_location": "L104",
+      "id": "alpha_leverage_website_landing_page_hostinger_cli_triggerdeploy",
+      "community": 2,
+      "norm_label": "triggerdeploy()"
+    },
+    {
+      "label": "deployWebsite()",
+      "file_type": "code",
+      "source_file": "hostinger-cli.mjs",
+      "source_location": "L115",
+      "id": "alpha_leverage_website_landing_page_hostinger_cli_deploywebsite",
+      "community": 2,
+      "norm_label": "deploywebsite()"
+    },
+    {
+      "label": "list-hostinger-websites.mjs",
+      "file_type": "code",
+      "source_file": "list-hostinger-websites.mjs",
+      "source_location": "L1",
+      "id": "list_hostinger_websites_mjs",
+      "community": 7,
+      "norm_label": "list-hostinger-websites.mjs"
+    },
+    {
+      "label": "transport",
+      "file_type": "code",
+      "source_file": "list-hostinger-websites.mjs",
+      "source_location": "L4",
+      "id": "alpha_leverage_website_landing_page_list_hostinger_websites_transport",
+      "community": 7,
+      "norm_label": "transport"
+    },
+    {
+      "label": "client",
+      "file_type": "code",
+      "source_file": "list-hostinger-websites.mjs",
+      "source_location": "L13",
+      "id": "alpha_leverage_website_landing_page_list_hostinger_websites_client",
+      "community": 7,
+      "norm_label": "client"
+    },
+    {
+      "label": "mcp.json",
+      "file_type": "code",
+      "source_file": "mcp.json",
+      "source_location": "L1",
+      "id": "mcp_json",
+      "community": 5,
+      "norm_label": "mcp.json"
+    },
+    {
+      "label": "mcpServers",
+      "file_type": "code",
+      "source_file": "mcp.json",
+      "source_location": "L2",
+      "id": "alpha_leverage_website_landing_page_mcp_mcpservers",
+      "community": 5,
+      "norm_label": "mcpservers"
+    },
+    {
+      "label": "hostinger-api",
+      "file_type": "code",
+      "source_file": "mcp.json",
+      "source_location": "L3",
+      "id": "alpha_leverage_website_landing_page_mcp_mcpservers_hostinger_api",
+      "community": 5,
+      "norm_label": "hostinger-api"
+    },
+    {
+      "label": "command",
+      "file_type": "code",
+      "source_file": "mcp.json",
+      "source_location": "L4",
+      "id": "alpha_leverage_website_landing_page_mcp_hostinger_api_command",
+      "community": 5,
+      "norm_label": "command"
+    },
+    {
+      "label": "env",
+      "file_type": "code",
+      "source_file": "mcp.json",
+      "source_location": "L5",
+      "id": "alpha_leverage_website_landing_page_mcp_hostinger_api_env",
+      "community": 5,
+      "norm_label": "env"
+    },
+    {
+      "label": "APITOKEN",
+      "file_type": "code",
+      "source_file": "mcp.json",
+      "source_location": "L6",
+      "id": "alpha_leverage_website_landing_page_mcp_env_apitoken",
+      "community": 5,
+      "norm_label": "apitoken"
+    },
+    {
+      "label": "script.js",
+      "file_type": "code",
+      "source_file": "script.js",
+      "source_location": "L1",
+      "id": "script_js",
+      "community": 0,
+      "norm_label": "script.js"
+    },
+    {
+      "label": "launcher",
+      "file_type": "code",
+      "source_file": "script.js",
+      "source_location": "L10",
+      "id": "alpha_leverage_website_landing_page_script_launcher",
+      "community": 0,
+      "norm_label": "launcher"
+    },
+    {
+      "label": "contact",
+      "file_type": "code",
+      "source_file": "script.js",
+      "source_location": "L16",
+      "id": "alpha_leverage_website_landing_page_script_contact",
+      "community": 0,
+      "norm_label": "contact"
+    },
+    {
+      "label": "canvas",
+      "file_type": "code",
+      "source_file": "script.js",
+      "source_location": "L26",
+      "id": "alpha_leverage_website_landing_page_script_canvas",
+      "community": 0,
+      "norm_label": "canvas"
+    },
+    {
+      "label": "ctx",
+      "file_type": "code",
+      "source_file": "script.js",
+      "source_location": "L28",
+      "id": "alpha_leverage_website_landing_page_script_ctx",
+      "community": 0,
+      "norm_label": "ctx"
+    },
+    {
+      "label": "blobs",
+      "file_type": "code",
+      "source_file": "script.js",
+      "source_location": "L29",
+      "id": "alpha_leverage_website_landing_page_script_blobs",
+      "community": 0,
+      "norm_label": "blobs"
+    },
+    {
+      "label": "resize()",
+      "file_type": "code",
+      "source_file": "script.js",
+      "source_location": "L35",
+      "id": "alpha_leverage_website_landing_page_script_resize",
+      "community": 0,
+      "norm_label": "resize()"
+    },
+    {
+      "label": "draw()",
+      "file_type": "code",
+      "source_file": "script.js",
+      "source_location": "L49",
+      "id": "alpha_leverage_website_landing_page_script_draw",
+      "community": 0,
+      "norm_label": "draw()"
+    },
+    {
+      "label": "scramble()",
+      "file_type": "code",
+      "source_file": "script.js",
+      "source_location": "L78",
+      "id": "alpha_leverage_website_landing_page_script_scramble",
+      "community": 0,
+      "norm_label": "scramble()"
+    },
+    {
+      "label": "titleEl",
+      "file_type": "code",
+      "source_file": "script.js",
+      "source_location": "L102",
+      "id": "alpha_leverage_website_landing_page_script_titleel",
+      "community": 0,
+      "norm_label": "titleel"
+    },
+    {
+      "label": "updateSpotlight()",
+      "file_type": "code",
+      "source_file": "script.js",
+      "source_location": "L116",
+      "id": "alpha_leverage_website_landing_page_script_updatespotlight",
+      "community": 0,
+      "norm_label": "updatespotlight()"
+    },
+    {
+      "label": "grid",
+      "file_type": "code",
+      "source_file": "script.js",
+      "source_location": "L124",
+      "id": "alpha_leverage_website_landing_page_script_grid",
+      "community": 0,
+      "norm_label": "grid"
+    },
+    {
+      "label": "cards",
+      "file_type": "code",
+      "source_file": "script.js",
+      "source_location": "L127",
+      "id": "alpha_leverage_website_landing_page_script_cards",
+      "community": 0,
+      "norm_label": "cards"
+    },
+    {
+      "label": "card",
+      "file_type": "code",
+      "source_file": "script.js",
+      "source_location": "L133",
+      "id": "alpha_leverage_website_landing_page_script_card",
+      "community": 0,
+      "norm_label": "card"
+    },
+    {
+      "label": "cookieBanner",
+      "file_type": "code",
+      "source_file": "script.js",
+      "source_location": "L140",
+      "id": "alpha_leverage_website_landing_page_script_cookiebanner",
+      "community": 0,
+      "norm_label": "cookiebanner"
+    },
+    {
+      "label": "cookieAccept",
+      "file_type": "code",
+      "source_file": "script.js",
+      "source_location": "L141",
+      "id": "alpha_leverage_website_landing_page_script_cookieaccept",
+      "community": 0,
+      "norm_label": "cookieaccept"
+    },
+    {
+      "label": "cookieReject",
+      "file_type": "code",
+      "source_file": "script.js",
+      "source_location": "L142",
+      "id": "alpha_leverage_website_landing_page_script_cookiereject",
+      "community": 0,
+      "norm_label": "cookiereject"
+    },
+    {
+      "label": "cookieManage",
+      "file_type": "code",
+      "source_file": "script.js",
+      "source_location": "L143",
+      "id": "alpha_leverage_website_landing_page_script_cookiemanage",
+      "community": 0,
+      "norm_label": "cookiemanage"
+    },
+    {
+      "label": "ctaButtons",
+      "file_type": "code",
+      "source_file": "script.js",
+      "source_location": "L144",
+      "id": "alpha_leverage_website_landing_page_script_ctabuttons",
+      "community": 0,
+      "norm_label": "ctabuttons"
+    },
+    {
+      "label": "saveConsent()",
+      "file_type": "code",
+      "source_file": "script.js",
+      "source_location": "L146",
+      "id": "alpha_leverage_website_landing_page_script_saveconsent",
+      "community": 0,
+      "norm_label": "saveconsent()"
+    },
+    {
+      "label": "getConsent()",
+      "file_type": "code",
+      "source_file": "script.js",
+      "source_location": "L152",
+      "id": "alpha_leverage_website_landing_page_script_getconsent",
+      "community": 0,
+      "norm_label": "getconsent()"
+    },
+    {
+      "label": "hideBanner()",
+      "file_type": "code",
+      "source_file": "script.js",
+      "source_location": "L160",
+      "id": "alpha_leverage_website_landing_page_script_hidebanner",
+      "community": 0,
+      "norm_label": "hidebanner()"
+    },
+    {
+      "label": "showBanner()",
+      "file_type": "code",
+      "source_file": "script.js",
+      "source_location": "L164",
+      "id": "alpha_leverage_website_landing_page_script_showbanner",
+      "community": 0,
+      "norm_label": "showbanner()"
+    },
+    {
+      "label": "consent",
+      "file_type": "code",
+      "source_file": "script.js",
+      "source_location": "L168",
+      "id": "alpha_leverage_website_landing_page_script_consent",
+      "community": 0,
+      "norm_label": "consent"
+    },
+    {
+      "label": "current",
+      "file_type": "code",
+      "source_file": "script.js",
+      "source_location": "L191",
+      "id": "alpha_leverage_website_landing_page_script_current",
+      "community": 0,
+      "norm_label": "current"
+    },
+    {
+      "label": "callsIn",
+      "file_type": "code",
+      "source_file": "script.js",
+      "source_location": "L209",
+      "id": "alpha_leverage_website_landing_page_script_callsin",
+      "community": 0,
+      "norm_label": "callsin"
+    },
+    {
+      "label": "convIn",
+      "file_type": "code",
+      "source_file": "script.js",
+      "source_location": "L210",
+      "id": "alpha_leverage_website_landing_page_script_convin",
+      "community": 0,
+      "norm_label": "convin"
+    },
+    {
+      "label": "jobIn",
+      "file_type": "code",
+      "source_file": "script.js",
+      "source_location": "L211",
+      "id": "alpha_leverage_website_landing_page_script_jobin",
+      "community": 0,
+      "norm_label": "jobin"
+    },
+    {
+      "label": "updateROI()",
+      "file_type": "code",
+      "source_file": "script.js",
+      "source_location": "L215",
+      "id": "alpha_leverage_website_landing_page_script_updateroi",
+      "community": 0,
+      "norm_label": "updateroi()"
+    },
+    {
+      "label": "panelId",
+      "file_type": "code",
+      "source_file": "script.js",
+      "source_location": "L240",
+      "id": "alpha_leverage_website_landing_page_script_panelid",
+      "community": 0,
+      "norm_label": "panelid"
+    },
+    {
+      "label": "icon",
+      "file_type": "code",
+      "source_file": "script.js",
+      "source_location": "L242",
+      "id": "alpha_leverage_website_landing_page_script_icon",
+      "community": 0,
+      "norm_label": "icon"
+    },
+    {
+      "label": "setExpanded()",
+      "file_type": "code",
+      "source_file": "script.js",
+      "source_location": "L244",
+      "id": "alpha_leverage_website_landing_page_script_setexpanded",
+      "community": 0,
+      "norm_label": "setexpanded()"
+    },
+    {
+      "label": "obj",
+      "file_type": "code",
+      "source_file": "script.js",
+      "source_location": "L275",
+      "id": "alpha_leverage_website_landing_page_script_obj",
+      "community": 0,
+      "norm_label": "obj"
+    },
+    {
+      "label": "form",
+      "file_type": "code",
+      "source_file": "script.js",
+      "source_location": "L288",
+      "id": "alpha_leverage_website_landing_page_script_form",
+      "community": 0,
+      "norm_label": "form"
+    },
+    {
+      "label": "feedback",
+      "file_type": "code",
+      "source_file": "script.js",
+      "source_location": "L289",
+      "id": "alpha_leverage_website_landing_page_script_feedback",
+      "community": 0,
+      "norm_label": "feedback"
+    },
+    {
+      "label": "submitBtn",
+      "file_type": "code",
+      "source_file": "script.js",
+      "source_location": "L290",
+      "id": "alpha_leverage_website_landing_page_script_submitbtn",
+      "community": 0,
+      "norm_label": "submitbtn"
+    },
+    {
+      "label": "launch.json",
+      "file_type": "code",
+      "source_file": ".claude/launch.json",
+      "source_location": "L1",
+      "id": "claude_launch_json",
+      "community": 6,
+      "norm_label": "launch.json"
+    },
+    {
+      "label": "version",
+      "file_type": "code",
+      "source_file": ".claude/launch.json",
+      "source_location": "L2",
+      "id": "claude_launch_version",
+      "community": 6,
+      "norm_label": "version"
+    },
+    {
+      "label": "configurations",
+      "file_type": "code",
+      "source_file": ".claude/launch.json",
+      "source_location": "L3",
+      "id": "claude_launch_configurations",
+      "community": 6,
+      "norm_label": "configurations"
+    },
+    {
+      "label": "alpha-leverage-agent-knowledgebase.md",
+      "file_type": "document",
+      "source_file": "alpha-leverage-agent-knowledgebase.md",
+      "source_location": "L1",
+      "id": "alpha_leverage_agent_knowledgebase_md",
+      "community": 1,
+      "norm_label": "alpha-leverage-agent-knowledgebase.md"
+    },
+    {
+      "label": "Alpha Leverage agent knowledge base",
+      "file_type": "document",
+      "source_file": "alpha-leverage-agent-knowledgebase.md",
+      "source_location": "L1",
+      "id": "alpha_leverage_website_landing_page_alpha_leverage_agent_knowledgebase_alpha_leverage_agent_knowledge_base",
+      "community": 1,
+      "norm_label": "alpha leverage agent knowledge base"
+    },
+    {
+      "label": "Offer",
+      "file_type": "document",
+      "source_file": "alpha-leverage-agent-knowledgebase.md",
+      "source_location": "L9",
+      "id": "alpha_leverage_website_landing_page_alpha_leverage_agent_knowledgebase_offer",
+      "community": 1,
+      "norm_label": "offer"
+    },
+    {
+      "label": "Primary goals",
+      "file_type": "document",
+      "source_file": "alpha-leverage-agent-knowledgebase.md",
+      "source_location": "L26",
+      "id": "alpha_leverage_website_landing_page_alpha_leverage_agent_knowledgebase_primary_goals",
+      "community": 1,
+      "norm_label": "primary goals"
+    },
+    {
+      "label": "Qualification questions",
+      "file_type": "document",
+      "source_file": "alpha-leverage-agent-knowledgebase.md",
+      "source_location": "L34",
+      "id": "alpha_leverage_website_landing_page_alpha_leverage_agent_knowledgebase_qualification_questions",
+      "community": 1,
+      "norm_label": "qualification questions"
+    },
+    {
+      "label": "Benefits to explain",
+      "file_type": "document",
+      "source_file": "alpha-leverage-agent-knowledgebase.md",
+      "source_location": "L63",
+      "id": "alpha_leverage_website_landing_page_alpha_leverage_agent_knowledgebase_benefits_to_explain",
+      "community": 1,
+      "norm_label": "benefits to explain"
+    },
+    {
+      "label": "Voice and tone",
+      "file_type": "document",
+      "source_file": "alpha-leverage-agent-knowledgebase.md",
+      "source_location": "L75",
+      "id": "alpha_leverage_website_landing_page_alpha_leverage_agent_knowledgebase_voice_and_tone",
+      "community": 1,
+      "norm_label": "voice and tone"
+    },
+    {
+      "label": "Booking a demo",
+      "file_type": "document",
+      "source_file": "alpha-leverage-agent-knowledgebase.md",
+      "source_location": "L114",
+      "id": "alpha_leverage_website_landing_page_alpha_leverage_agent_knowledgebase_booking_a_demo",
+      "community": 1,
+      "norm_label": "booking a demo"
+    },
+    {
+      "label": "Conversational webchat mode",
+      "file_type": "document",
+      "source_file": "alpha-leverage-agent-knowledgebase.md",
+      "source_location": "L140",
+      "id": "alpha_leverage_website_landing_page_alpha_leverage_agent_knowledgebase_conversational_webchat_mode",
+      "community": 1,
+      "norm_label": "conversational webchat mode"
+    },
+    {
+      "label": "Human handoff",
+      "file_type": "document",
+      "source_file": "alpha-leverage-agent-knowledgebase.md",
+      "source_location": "L158",
+      "id": "alpha_leverage_website_landing_page_alpha_leverage_agent_knowledgebase_human_handoff",
+      "community": 1,
+      "norm_label": "human handoff"
+    },
+    {
+      "label": "Guardrails",
+      "file_type": "document",
+      "source_file": "alpha-leverage-agent-knowledgebase.md",
+      "source_location": "L168",
+      "id": "alpha_leverage_website_landing_page_alpha_leverage_agent_knowledgebase_guardrails",
+      "community": 1,
+      "norm_label": "guardrails"
+    },
+    {
+      "label": "Opening message",
+      "file_type": "document",
+      "source_file": "alpha-leverage-agent-knowledgebase.md",
+      "source_location": "L181",
+      "id": "alpha_leverage_website_landing_page_alpha_leverage_agent_knowledgebase_opening_message",
+      "community": 1,
+      "norm_label": "opening message"
+    },
+    {
+      "label": "Short pricing answer",
+      "file_type": "document",
+      "source_file": "alpha-leverage-agent-knowledgebase.md",
+      "source_location": "L185",
+      "id": "alpha_leverage_website_landing_page_alpha_leverage_agent_knowledgebase_short_pricing_answer",
+      "community": 1,
+      "norm_label": "short pricing answer"
+    },
+    {
+      "label": "CLAUDE.md",
+      "file_type": "document",
+      "source_file": "CLAUDE.md",
+      "source_location": "L1",
+      "id": "claude_md",
+      "community": 3,
+      "norm_label": "claude.md"
+    },
+    {
+      "label": "CLAUDE.md",
+      "file_type": "document",
+      "source_file": "CLAUDE.md",
+      "source_location": "L1",
+      "id": "alpha_leverage_website_landing_page_claude_claude_md",
+      "community": 3,
+      "norm_label": "claude.md"
+    },
+    {
+      "label": "1. Think Before Coding",
+      "file_type": "document",
+      "source_file": "CLAUDE.md",
+      "source_location": "L7",
+      "id": "alpha_leverage_website_landing_page_claude_1_think_before_coding",
+      "community": 3,
+      "norm_label": "1. think before coding"
+    },
+    {
+      "label": "2. Simplicity First",
+      "file_type": "document",
+      "source_file": "CLAUDE.md",
+      "source_location": "L17",
+      "id": "alpha_leverage_website_landing_page_claude_2_simplicity_first",
+      "community": 3,
+      "norm_label": "2. simplicity first"
+    },
+    {
+      "label": "3. Surgical Changes",
+      "file_type": "document",
+      "source_file": "CLAUDE.md",
+      "source_location": "L29",
+      "id": "alpha_leverage_website_landing_page_claude_3_surgical_changes",
+      "community": 3,
+      "norm_label": "3. surgical changes"
+    },
+    {
+      "label": "4. Goal-Driven Execution",
+      "file_type": "document",
+      "source_file": "CLAUDE.md",
+      "source_location": "L45",
+      "id": "alpha_leverage_website_landing_page_claude_4_goal_driven_execution",
+      "community": 3,
+      "norm_label": "4. goal-driven execution"
+    }
+  ],
+  "links": [
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "deploy-hostinger.mjs",
+      "source_location": "L6",
+      "weight": 1.0,
+      "source": "deploy_hostinger_mjs",
+      "target": "alpha_leverage_website_landing_page_deploy_hostinger_filename",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "deploy-hostinger.mjs",
+      "source_location": "L7",
+      "weight": 1.0,
+      "source": "deploy_hostinger_mjs",
+      "target": "alpha_leverage_website_landing_page_deploy_hostinger_dirname",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "deploy-hostinger.mjs",
+      "source_location": "L9",
+      "weight": 1.0,
+      "source": "deploy_hostinger_mjs",
+      "target": "alpha_leverage_website_landing_page_deploy_hostinger_archivepath",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "deploy-hostinger.mjs",
+      "source_location": "L12",
+      "weight": 1.0,
+      "source": "deploy_hostinger_mjs",
+      "target": "alpha_leverage_website_landing_page_deploy_hostinger_transport",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "deploy-hostinger.mjs",
+      "source_location": "L21",
+      "weight": 1.0,
+      "source": "deploy_hostinger_mjs",
+      "target": "alpha_leverage_website_landing_page_deploy_hostinger_client",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "hostinger-cli.mjs",
+      "source_location": "L7",
+      "weight": 1.0,
+      "source": "hostinger_cli_mjs",
+      "target": "alpha_leverage_website_landing_page_hostinger_cli_headers",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "hostinger-cli.mjs",
+      "source_location": "L13",
+      "weight": 1.0,
+      "source": "hostinger_cli_mjs",
+      "target": "alpha_leverage_website_landing_page_hostinger_cli_showhelp",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "hostinger-cli.mjs",
+      "source_location": "L23",
+      "weight": 1.0,
+      "source": "hostinger_cli_mjs",
+      "target": "alpha_leverage_website_landing_page_hostinger_cli_listwebsites",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "hostinger-cli.mjs",
+      "source_location": "L35",
+      "weight": 1.0,
+      "source": "hostinger_cli_mjs",
+      "target": "alpha_leverage_website_landing_page_hostinger_cli_resolveusername",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "hostinger-cli.mjs",
+      "source_location": "L47",
+      "weight": 1.0,
+      "source": "hostinger_cli_mjs",
+      "target": "alpha_leverage_website_landing_page_hostinger_cli_fetchuploadcredentials",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "hostinger-cli.mjs",
+      "source_location": "L58",
+      "weight": 1.0,
+      "source": "hostinger_cli_mjs",
+      "target": "alpha_leverage_website_landing_page_hostinger_cli_uploadfilezerodep",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "hostinger-cli.mjs",
+      "source_location": "L104",
+      "weight": 1.0,
+      "source": "hostinger_cli_mjs",
+      "target": "alpha_leverage_website_landing_page_hostinger_cli_triggerdeploy",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "hostinger-cli.mjs",
+      "source_location": "L115",
+      "weight": 1.0,
+      "source": "hostinger_cli_mjs",
+      "target": "alpha_leverage_website_landing_page_hostinger_cli_deploywebsite",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "hostinger-cli.mjs",
+      "source_location": "L126",
+      "weight": 1.0,
+      "source": "alpha_leverage_website_landing_page_hostinger_cli_deploywebsite",
+      "target": "alpha_leverage_website_landing_page_hostinger_cli_resolveusername",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "hostinger-cli.mjs",
+      "source_location": "L130",
+      "weight": 1.0,
+      "source": "alpha_leverage_website_landing_page_hostinger_cli_deploywebsite",
+      "target": "alpha_leverage_website_landing_page_hostinger_cli_fetchuploadcredentials",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "hostinger-cli.mjs",
+      "source_location": "L134",
+      "weight": 1.0,
+      "source": "alpha_leverage_website_landing_page_hostinger_cli_deploywebsite",
+      "target": "alpha_leverage_website_landing_page_hostinger_cli_uploadfilezerodep",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "hostinger-cli.mjs",
+      "source_location": "L138",
+      "weight": 1.0,
+      "source": "alpha_leverage_website_landing_page_hostinger_cli_deploywebsite",
+      "target": "alpha_leverage_website_landing_page_hostinger_cli_triggerdeploy",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "list-hostinger-websites.mjs",
+      "source_location": "L4",
+      "weight": 1.0,
+      "source": "list_hostinger_websites_mjs",
+      "target": "alpha_leverage_website_landing_page_list_hostinger_websites_transport",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "list-hostinger-websites.mjs",
+      "source_location": "L13",
+      "weight": 1.0,
+      "source": "list_hostinger_websites_mjs",
+      "target": "alpha_leverage_website_landing_page_list_hostinger_websites_client",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "mcp.json",
+      "source_location": "L2",
+      "weight": 1.0,
+      "source": "mcp_json",
+      "target": "alpha_leverage_website_landing_page_mcp_mcpservers",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "mcp.json",
+      "source_location": "L3",
+      "weight": 1.0,
+      "source": "alpha_leverage_website_landing_page_mcp_mcpservers",
+      "target": "alpha_leverage_website_landing_page_mcp_mcpservers_hostinger_api",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "mcp.json",
+      "source_location": "L4",
+      "weight": 1.0,
+      "source": "alpha_leverage_website_landing_page_mcp_mcpservers_hostinger_api",
+      "target": "alpha_leverage_website_landing_page_mcp_hostinger_api_command",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "mcp.json",
+      "source_location": "L5",
+      "weight": 1.0,
+      "source": "alpha_leverage_website_landing_page_mcp_mcpservers_hostinger_api",
+      "target": "alpha_leverage_website_landing_page_mcp_hostinger_api_env",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "mcp.json",
+      "source_location": "L6",
+      "weight": 1.0,
+      "source": "alpha_leverage_website_landing_page_mcp_hostinger_api_env",
+      "target": "alpha_leverage_website_landing_page_mcp_env_apitoken",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "script.js",
+      "source_location": "L10",
+      "weight": 1.0,
+      "source": "script_js",
+      "target": "alpha_leverage_website_landing_page_script_launcher",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "script.js",
+      "source_location": "L16",
+      "weight": 1.0,
+      "source": "script_js",
+      "target": "alpha_leverage_website_landing_page_script_contact",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "script.js",
+      "source_location": "L26",
+      "weight": 1.0,
+      "source": "script_js",
+      "target": "alpha_leverage_website_landing_page_script_canvas",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "script.js",
+      "source_location": "L28",
+      "weight": 1.0,
+      "source": "script_js",
+      "target": "alpha_leverage_website_landing_page_script_ctx",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "script.js",
+      "source_location": "L29",
+      "weight": 1.0,
+      "source": "script_js",
+      "target": "alpha_leverage_website_landing_page_script_blobs",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "script.js",
+      "source_location": "L35",
+      "weight": 1.0,
+      "source": "script_js",
+      "target": "alpha_leverage_website_landing_page_script_resize",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "script.js",
+      "source_location": "L49",
+      "weight": 1.0,
+      "source": "script_js",
+      "target": "alpha_leverage_website_landing_page_script_draw",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "script.js",
+      "source_location": "L78",
+      "weight": 1.0,
+      "source": "script_js",
+      "target": "alpha_leverage_website_landing_page_script_scramble",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "script.js",
+      "source_location": "L102",
+      "weight": 1.0,
+      "source": "script_js",
+      "target": "alpha_leverage_website_landing_page_script_titleel",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "script.js",
+      "source_location": "L116",
+      "weight": 1.0,
+      "source": "script_js",
+      "target": "alpha_leverage_website_landing_page_script_updatespotlight",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "script.js",
+      "source_location": "L124",
+      "weight": 1.0,
+      "source": "script_js",
+      "target": "alpha_leverage_website_landing_page_script_grid",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "script.js",
+      "source_location": "L127",
+      "weight": 1.0,
+      "source": "script_js",
+      "target": "alpha_leverage_website_landing_page_script_cards",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "script.js",
+      "source_location": "L133",
+      "weight": 1.0,
+      "source": "script_js",
+      "target": "alpha_leverage_website_landing_page_script_card",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "script.js",
+      "source_location": "L140",
+      "weight": 1.0,
+      "source": "script_js",
+      "target": "alpha_leverage_website_landing_page_script_cookiebanner",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "script.js",
+      "source_location": "L141",
+      "weight": 1.0,
+      "source": "script_js",
+      "target": "alpha_leverage_website_landing_page_script_cookieaccept",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "script.js",
+      "source_location": "L142",
+      "weight": 1.0,
+      "source": "script_js",
+      "target": "alpha_leverage_website_landing_page_script_cookiereject",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "script.js",
+      "source_location": "L143",
+      "weight": 1.0,
+      "source": "script_js",
+      "target": "alpha_leverage_website_landing_page_script_cookiemanage",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "script.js",
+      "source_location": "L144",
+      "weight": 1.0,
+      "source": "script_js",
+      "target": "alpha_leverage_website_landing_page_script_ctabuttons",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "script.js",
+      "source_location": "L146",
+      "weight": 1.0,
+      "source": "script_js",
+      "target": "alpha_leverage_website_landing_page_script_saveconsent",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "script.js",
+      "source_location": "L152",
+      "weight": 1.0,
+      "source": "script_js",
+      "target": "alpha_leverage_website_landing_page_script_getconsent",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "script.js",
+      "source_location": "L160",
+      "weight": 1.0,
+      "source": "script_js",
+      "target": "alpha_leverage_website_landing_page_script_hidebanner",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "script.js",
+      "source_location": "L164",
+      "weight": 1.0,
+      "source": "script_js",
+      "target": "alpha_leverage_website_landing_page_script_showbanner",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "script.js",
+      "source_location": "L168",
+      "weight": 1.0,
+      "source": "script_js",
+      "target": "alpha_leverage_website_landing_page_script_consent",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "script.js",
+      "source_location": "L191",
+      "weight": 1.0,
+      "source": "script_js",
+      "target": "alpha_leverage_website_landing_page_script_current",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "script.js",
+      "source_location": "L209",
+      "weight": 1.0,
+      "source": "script_js",
+      "target": "alpha_leverage_website_landing_page_script_callsin",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "script.js",
+      "source_location": "L210",
+      "weight": 1.0,
+      "source": "script_js",
+      "target": "alpha_leverage_website_landing_page_script_convin",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "script.js",
+      "source_location": "L211",
+      "weight": 1.0,
+      "source": "script_js",
+      "target": "alpha_leverage_website_landing_page_script_jobin",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "script.js",
+      "source_location": "L215",
+      "weight": 1.0,
+      "source": "script_js",
+      "target": "alpha_leverage_website_landing_page_script_updateroi",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "script.js",
+      "source_location": "L240",
+      "weight": 1.0,
+      "source": "script_js",
+      "target": "alpha_leverage_website_landing_page_script_panelid",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "script.js",
+      "source_location": "L242",
+      "weight": 1.0,
+      "source": "script_js",
+      "target": "alpha_leverage_website_landing_page_script_icon",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "script.js",
+      "source_location": "L244",
+      "weight": 1.0,
+      "source": "script_js",
+      "target": "alpha_leverage_website_landing_page_script_setexpanded",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "script.js",
+      "source_location": "L275",
+      "weight": 1.0,
+      "source": "script_js",
+      "target": "alpha_leverage_website_landing_page_script_obj",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "script.js",
+      "source_location": "L288",
+      "weight": 1.0,
+      "source": "script_js",
+      "target": "alpha_leverage_website_landing_page_script_form",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "script.js",
+      "source_location": "L289",
+      "weight": 1.0,
+      "source": "script_js",
+      "target": "alpha_leverage_website_landing_page_script_feedback",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "script.js",
+      "source_location": "L290",
+      "weight": 1.0,
+      "source": "script_js",
+      "target": "alpha_leverage_website_landing_page_script_submitbtn",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".claude/launch.json",
+      "source_location": "L2",
+      "weight": 1.0,
+      "source": "claude_launch_json",
+      "target": "claude_launch_version",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".claude/launch.json",
+      "source_location": "L3",
+      "weight": 1.0,
+      "source": "claude_launch_json",
+      "target": "claude_launch_configurations",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "alpha-leverage-agent-knowledgebase.md",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "alpha_leverage_agent_knowledgebase_md",
+      "target": "alpha_leverage_website_landing_page_alpha_leverage_agent_knowledgebase_alpha_leverage_agent_knowledge_base",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "alpha-leverage-agent-knowledgebase.md",
+      "source_location": "L9",
+      "weight": 1.0,
+      "source": "alpha_leverage_website_landing_page_alpha_leverage_agent_knowledgebase_alpha_leverage_agent_knowledge_base",
+      "target": "alpha_leverage_website_landing_page_alpha_leverage_agent_knowledgebase_offer",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "alpha-leverage-agent-knowledgebase.md",
+      "source_location": "L26",
+      "weight": 1.0,
+      "source": "alpha_leverage_website_landing_page_alpha_leverage_agent_knowledgebase_alpha_leverage_agent_knowledge_base",
+      "target": "alpha_leverage_website_landing_page_alpha_leverage_agent_knowledgebase_primary_goals",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "alpha-leverage-agent-knowledgebase.md",
+      "source_location": "L34",
+      "weight": 1.0,
+      "source": "alpha_leverage_website_landing_page_alpha_leverage_agent_knowledgebase_alpha_leverage_agent_knowledge_base",
+      "target": "alpha_leverage_website_landing_page_alpha_leverage_agent_knowledgebase_qualification_questions",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "alpha-leverage-agent-knowledgebase.md",
+      "source_location": "L63",
+      "weight": 1.0,
+      "source": "alpha_leverage_website_landing_page_alpha_leverage_agent_knowledgebase_alpha_leverage_agent_knowledge_base",
+      "target": "alpha_leverage_website_landing_page_alpha_leverage_agent_knowledgebase_benefits_to_explain",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "alpha-leverage-agent-knowledgebase.md",
+      "source_location": "L75",
+      "weight": 1.0,
+      "source": "alpha_leverage_website_landing_page_alpha_leverage_agent_knowledgebase_alpha_leverage_agent_knowledge_base",
+      "target": "alpha_leverage_website_landing_page_alpha_leverage_agent_knowledgebase_voice_and_tone",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "alpha-leverage-agent-knowledgebase.md",
+      "source_location": "L114",
+      "weight": 1.0,
+      "source": "alpha_leverage_website_landing_page_alpha_leverage_agent_knowledgebase_alpha_leverage_agent_knowledge_base",
+      "target": "alpha_leverage_website_landing_page_alpha_leverage_agent_knowledgebase_booking_a_demo",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "alpha-leverage-agent-knowledgebase.md",
+      "source_location": "L140",
+      "weight": 1.0,
+      "source": "alpha_leverage_website_landing_page_alpha_leverage_agent_knowledgebase_alpha_leverage_agent_knowledge_base",
+      "target": "alpha_leverage_website_landing_page_alpha_leverage_agent_knowledgebase_conversational_webchat_mode",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "alpha-leverage-agent-knowledgebase.md",
+      "source_location": "L158",
+      "weight": 1.0,
+      "source": "alpha_leverage_website_landing_page_alpha_leverage_agent_knowledgebase_alpha_leverage_agent_knowledge_base",
+      "target": "alpha_leverage_website_landing_page_alpha_leverage_agent_knowledgebase_human_handoff",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "alpha-leverage-agent-knowledgebase.md",
+      "source_location": "L168",
+      "weight": 1.0,
+      "source": "alpha_leverage_website_landing_page_alpha_leverage_agent_knowledgebase_alpha_leverage_agent_knowledge_base",
+      "target": "alpha_leverage_website_landing_page_alpha_leverage_agent_knowledgebase_guardrails",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "alpha-leverage-agent-knowledgebase.md",
+      "source_location": "L181",
+      "weight": 1.0,
+      "source": "alpha_leverage_website_landing_page_alpha_leverage_agent_knowledgebase_alpha_leverage_agent_knowledge_base",
+      "target": "alpha_leverage_website_landing_page_alpha_leverage_agent_knowledgebase_opening_message",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "alpha-leverage-agent-knowledgebase.md",
+      "source_location": "L185",
+      "weight": 1.0,
+      "source": "alpha_leverage_website_landing_page_alpha_leverage_agent_knowledgebase_alpha_leverage_agent_knowledge_base",
+      "target": "alpha_leverage_website_landing_page_alpha_leverage_agent_knowledgebase_short_pricing_answer",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "CLAUDE.md",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "claude_md",
+      "target": "alpha_leverage_website_landing_page_claude_claude_md",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "CLAUDE.md",
+      "source_location": "L7",
+      "weight": 1.0,
+      "source": "alpha_leverage_website_landing_page_claude_claude_md",
+      "target": "alpha_leverage_website_landing_page_claude_1_think_before_coding",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "CLAUDE.md",
+      "source_location": "L17",
+      "weight": 1.0,
+      "source": "alpha_leverage_website_landing_page_claude_claude_md",
+      "target": "alpha_leverage_website_landing_page_claude_2_simplicity_first",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "CLAUDE.md",
+      "source_location": "L29",
+      "weight": 1.0,
+      "source": "alpha_leverage_website_landing_page_claude_claude_md",
+      "target": "alpha_leverage_website_landing_page_claude_3_surgical_changes",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "CLAUDE.md",
+      "source_location": "L45",
+      "weight": 1.0,
+      "source": "alpha_leverage_website_landing_page_claude_claude_md",
+      "target": "alpha_leverage_website_landing_page_claude_4_goal_driven_execution",
+      "confidence_score": 1.0
+    }
+  ],
+  "hyperedges": [],
+  "built_at_commit": "d3070cd2acf18d71ffcc26c010fdfcbce44e26de"
+}

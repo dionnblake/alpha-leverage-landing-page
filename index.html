@@ -1,0 +1,403 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alpha Leverage | AI Receptionist for Plumbing Businesses</title>
+    <meta name="description" content="Never miss a plumbing lead again. Alpha Leverage provides AI voice and web chat agents that answer, qualify, and book jobs 24/7.">
+    <link rel="icon" type="image/png" href="preview.png">
+    <link rel="canonical" href="https://alphaleverage.com/">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Alpha Leverage | AI Receptionist for Plumbing Businesses">
+    <meta property="og:description" content="Never miss a plumbing lead again. AI voice and web chat agents that answer, qualify, and book jobs 24/7.">
+    <meta property="og:url" content="https://alphaleverage.alphastartsnow.com/">
+    <meta property="og:image" content="https://alphaleverage.alphastartsnow.com/hero.png">
+    <meta property="og:site_name" content="Alpha Leverage">
+    <meta property="article:publisher" content="https://www.facebook.com/profile.php?id=61586818574879">
+    
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    
+    <!-- Libraries -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js" defer></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js" defer></script>
+</head>
+<body>
+
+    <a href="#main-content" class="skip-link">Skip to main content</a>
+
+    <canvas id="meshBg" class="mesh-canvas" aria-hidden="true"></canvas>
+
+    <nav class="primary-nav" aria-label="Main navigation">
+        <a href="#demo">Meet Amanda</a>
+        <a href="#roi">ROI Calculator</a>
+        <a href="#pricing">Pricing</a>
+        <a href="#faq">FAQ</a>
+        <a href="#contact" style="color: var(--accent)">Get Started</a>
+    </nav>
+
+    <main id="main-content">
+    <section class="hero">
+        <div class="container">
+            <div class="hero-label">Alpha Leverage - Professional Automation</div>
+            <h1 id="hero-title" data-scramble="YOU'RE ALREADY GETTING THE CALLS YOU'RE JUST NOT CAPTURING ALL OF THEM">YOU'RE ALREADY GETTING THE CALLS YOU'RE JUST NOT CAPTURING ALL OF THEM</h1>
+            <p id="hero-sub">The calls are coming. Your system isn't ready. Stop losing thousands in revenue to competitors while you're busy on the job.</p>
+            <div class="hero-actions">
+                <button type="button" class="btn btn-primary voice-open" onclick="window.openGhlChatFromCTA && window.openGhlChatFromCTA()" aria-label="Open chat with Amanda">Speak to Amanda</button>
+                <button type="button" class="btn btn-secondary chat-open" aria-label="Open text chat with Amanda">Text with Amanda</button>
+            </div>
+            <p class="hero-fallback-link">
+                Voice issue? <a href="#contact">Request a callback instead</a>
+            </p>
+        </div>
+    </section>
+
+    <section class="section use-cases">
+        <div class="container">
+            <div class="text-center mb-48">
+                <h2>How Plumbing Teams Use Amanda</h2>
+                <p style="color: var(--text-muted); margin-top: 12px;">Real problems, practical deployment, measurable outcome.</p>
+            </div>
+            <div class="use-case-grid">
+                <article class="use-case-card">
+                    <h3>Owner On Jobsite</h3>
+                    <p><strong>Problem:</strong> Missed inbound calls while the owner is under a sink or on a roof.</p>
+                    <p><strong>What Amanda did:</strong> Answered every call, captured job type, urgency, and contact details, then sent summary by text.</p>
+                    <p><strong>Result:</strong> More first-response coverage and fewer same-day lead losses.</p>
+                </article>
+                <article class="use-case-card">
+                    <h3>After-Hours Demand</h3>
+                    <p><strong>Problem:</strong> Evening and weekend callers went to voicemail and never called back.</p>
+                    <p><strong>What Amanda did:</strong> Ran 24/7 voice and text follow-up to qualify intent and collect callback windows.</p>
+                    <p><strong>Result:</strong> Faster morning dispatch with warmer, pre-qualified callbacks.</p>
+                </article>
+                <article class="use-case-card">
+                    <h3>Overloaded Office</h3>
+                    <p><strong>Problem:</strong> Office staff lost time chasing partial leads from calls, forms, and webchat.</p>
+                    <p><strong>What Amanda did:</strong> Standardized intake and pushed complete lead notes to the team.</p>
+                    <p><strong>Result:</strong> Less manual back-and-forth and better booking consistency.</p>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <section id="demo" class="section demo-section">
+        <div class="container">
+            <div class="text-center mb-48">
+                <h2 class="title-accent">Speak to Amanda, our virtual receptionist</h2>
+                <p style="color: var(--text-muted); margin-top: 12px;">Built for plumbing companies that want missed calls answered, leads qualified, and sales conversations handled without chasing every inquiry manually.</p>
+            </div>
+
+            <div class="spot-grid" id="processGrid">
+                <div class="spot-card box-1">
+                    <h3>The Miss</h3>
+                    <p>A high-value lead calls while you're under a sink or on a roof. Normally, this is where they hang up and call the next guy.</p>
+                </div>
+                <div class="spot-card box-2">
+                    <h3>The Catch</h3>
+                    <p>Alpha Leverage gives plumbing owners a virtual receptionist that can explain the service, qualify their business, and help book a demo.</p>
+                </div>
+                <div class="spot-card box-3">
+                    <h3>The Win</h3>
+                    <p>You see how Amanda qualifies an owner by company, service area, lead flow, current follow-up process, biggest pain, and whether voice, text, or both make sense.</p>
+                </div>
+            </div>
+
+            <div class="demo-window mt-48">
+                <div class="demo-header">
+                    <div class="dot" style="background: #ff5f57"></div>
+                    <div class="dot" style="background: #febc2e"></div>
+                    <div class="dot" style="background: #28c840"></div>
+                </div>
+                <div class="agent-demo" id="agent-demo">
+                    <div class="agent-demo-intro">
+                        <h3>Ask Amanda like a plumbing company owner.</h3>
+                        <p>Ask the same questions a plumbing owner would ask before working with Alpha Leverage: missed calls, lead follow-up, booking, pricing, setup, and whether voice, text, or both make sense.</p>
+                    </div>
+                    <div class="demo-mode-grid">
+                        <div class="agent-panel demo-mode-card">
+                            <div>
+                                <span class="mode-label">SPEAK TO AMANDA</span>
+                                <div class="agent-pulse" aria-hidden="true"></div>
+                                <h4>Amanda speaks to you like a human.</h4>
+                                <p>Use voice for a natural conversation with Amanda, our virtual receptionist for plumbing companies.</p>
+                                <div class="agent-status" id="agent-status" role="status" aria-live="polite">Amanda chat is ready.</div>
+                            </div>
+                            <div class="agent-actions">
+                                <button type="button" class="btn btn-primary" id="agent-start" onclick="window.openGhlChatFromCTA && window.openGhlChatFromCTA()" style="width: 100%; justify-content: center;" aria-label="Open chat with Amanda">Talk to Amanda</button>
+                            </div>
+                        </div>
+
+                        <div class="agent-panel demo-mode-card">
+                            <div>
+                                <span class="mode-label">TEXT WITH AMANDA</span>
+                                <h4>Amanda texts you like a person.</h4>
+                                <p>Use webchat for the same Amanda conversation in a text-message style.</p>
+                                <div class="chat-preview" aria-hidden="true">
+                                    <div class="chat-preview-bubble inbound">I run a plumbing company. How does this work?</div>
+                                    <div class="chat-preview-bubble outbound">Amanda qualifies your business, explains voice and text agents, and can help book a demo.</div>
+                                </div>
+                            </div>
+                            <div class="agent-actions">
+                                <button type="button" class="btn btn-secondary chat-open" onclick="window.openGhlChatFromCTA && window.openGhlChatFromCTA()" style="width: 100%; justify-content: center;" aria-label="Open text chat with Amanda">Text with Amanda</button>
+                                <span class="agent-link">Start a text conversation with Amanda for your website visitors.</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section stats-section">
+        <div class="container text-center">
+            <div class="stat-large" id="stat-count" data-val="82">0%</div>
+            <h2>of customers expect an immediate response.</h2>
+            <p style="color: var(--text-muted); margin-top: 24px; max-width: 600px; margin-left: auto; margin-right: auto;">In the trades, speed is not a convenience. It is the difference between a booked job and a lost lead. If you do not answer, they do not wait.</p>
+
+            <div class="stat-support">
+                <div class="stat-support-item">
+                    <div class="stat-support-num">5 min</div>
+                    <div class="stat-support-label">Average window before a new lead goes cold and starts calling competitors.</div>
+                </div>
+                <div class="stat-support-divider" aria-hidden="true"></div>
+                <div class="stat-support-item">
+                    <div class="stat-support-num">1 in 3</div>
+                    <div class="stat-support-label">Inbound calls to service businesses go unanswered during peak hours.</div>
+                </div>
+                <div class="stat-support-divider" aria-hidden="true"></div>
+                <div class="stat-support-item">
+                    <div class="stat-support-num">24/7</div>
+                    <div class="stat-support-label">Amanda answers nights, weekends, and while your techs are on a job.</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="roi" class="section">
+        <div class="container">
+            <div class="text-center mb-48">
+                <h2>Revenue Loss Calculator</h2>
+                <p style="color: var(--text-muted);">See exactly how much money is slipping through your fingers.</p>
+            </div>
+
+            <div class="calc-card">
+                <div class="calc-inputs">
+                    <div class="range-group">
+                        <div class="range-header">
+                            <label class="range-label" for="input-calls">Missed Calls Per Day</label>
+                            <span class="range-value" id="val-calls" aria-hidden="true">8</span>
+                        </div>
+                        <input type="range" id="input-calls" min="1" max="50" value="8" aria-label="Missed calls per day" aria-valuemin="1" aria-valuemax="50" aria-valuenow="8">
+                    </div>
+
+                    <div class="range-group">
+                        <div class="range-header">
+                            <label class="range-label" for="input-conv">Close Rate (If Reached)</label>
+                            <span class="range-value" id="val-conv" aria-hidden="true">20%</span>
+                        </div>
+                        <input type="range" id="input-conv" min="1" max="100" value="20" aria-label="Close rate percent if reached" aria-valuemin="1" aria-valuemax="100" aria-valuenow="20">
+                    </div>
+
+                    <div class="range-group">
+                        <div class="range-header">
+                            <label class="range-label" for="input-job">Average Job Value</label>
+                            <span class="range-value" id="val-job" aria-hidden="true">$500</span>
+                        </div>
+                        <input type="range" id="input-job" min="100" max="5000" step="50" value="500" aria-label="Average job value in dollars" aria-valuemin="100" aria-valuemax="5000" aria-valuenow="500">
+                    </div>
+                </div>
+
+                <div class="results-box">
+                    <p class="results-label">Estimated Yearly Revenue At Risk</p>
+                    <div class="revenue-risk" id="result-risk">$35,040</div>
+                    <p style="color: var(--text-muted)">Uses conservative assumptions: 60% qualified leads and 40% eventually recovered without AI follow-up.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="pricing" class="section">
+        <div class="container">
+            <div class="trust-strip mb-48" aria-label="Customer proof">
+                <div class="trust-item">
+                    <div class="trust-value">24/7</div>
+                    <div class="trust-label">Lead response coverage</div>
+                </div>
+                <div class="trust-item">
+                    <div class="trust-value">&lt;5 min</div>
+                    <div class="trust-label">Initial response target</div>
+                </div>
+                <div class="trust-item">
+                    <div class="trust-value">Phone + Web</div>
+                    <div class="trust-label">Unified voice and chat intake</div>
+                </div>
+                <div class="trust-item">
+                    <div class="trust-value">Live Demo</div>
+                    <div class="trust-label">Try Amanda before onboarding</div>
+                </div>
+            </div>
+            <div class="text-center mb-48">
+                <h2>Simple, Honest Pricing</h2>
+                <p style="color: var(--text-muted); margin-top: 12px;">One setup fee. Pick the channel that matches how your customers reach you.</p>
+            </div>
+
+            <div class="pricing-grid">
+                <div class="price-card">
+                    <div class="price-name">Voice Agent</div>
+                    <div class="price-amount">$297<span> / month</span></div>
+                    <h4>Answer every call.</h4>
+                    <ul>
+                        <li>Answers or follows up on missed calls</li>
+                        <li>Qualifies the lead and gathers details</li>
+                        <li>Helps move toward booking</li>
+                        <li>After-hours coverage included</li>
+                    </ul>
+                </div>
+
+                <div class="price-card featured">
+                    <div class="badge">Most Common</div>
+                    <div class="price-name">Voice + Text</div>
+                    <div class="price-amount">$397<span> / month</span></div>
+                    <h4>Cover both channels.</h4>
+                    <ul>
+                        <li>Voice agent answers and follows up on phone calls</li>
+                        <li>Text agent handles website conversations and lead capture</li>
+                        <li>Both channels managed together in one monthly plan</li>
+                        <li>Ideal when your business wants phone + website coverage</li>
+                    </ul>
+                </div>
+
+                <div class="price-card">
+                    <div class="price-name">Text Agent</div>
+                    <div class="price-amount">$297<span> / month</span></div>
+                    <h4>Catch web and SMS leads.</h4>
+                    <ul>
+                        <li>Replies by text and webchat</li>
+                        <li>Qualifies the lead conversationally</li>
+                        <li>Collects details for fast callback</li>
+                        <li>Less manual chasing for the office</li>
+                    </ul>
+                </div>
+            </div>
+
+            <p class="price-setup">$397 one-time setup fee. Setup typically completes within 24 hours.</p>
+        </div>
+    </section>
+
+    <section id="faq" class="section">
+        <div class="container">
+            <h2 class="text-center">Common Questions</h2>
+            <div class="faq-grid">
+                <div class="faq-item">
+                    <button class="faq-trigger" aria-expanded="false" aria-controls="faq-panel-1" id="faq-trigger-1">Does it sound like a real person? <span aria-hidden="true">+</span></button>
+                    <div class="faq-content" id="faq-panel-1" role="region" aria-labelledby="faq-trigger-1" hidden>Try it. The Speak to Amanda button on this page connects to the same voice agent we'd configure for your shop. We tune pacing, vocabulary, and tone so it does not sound like a typical robocall.</div>
+                </div>
+                <div class="faq-item">
+                    <button class="faq-trigger" aria-expanded="false" aria-controls="faq-panel-2" id="faq-trigger-2">How long does setup take? <span aria-hidden="true">+</span></button>
+                    <div class="faq-content" id="faq-panel-2" role="region" aria-labelledby="faq-trigger-2" hidden>Most setups complete within 24 hours. We connect to your existing phone line and configure Amanda to your service area, hours, and pricing without any downtime on your end.</div>
+                </div>
+                <div class="faq-item">
+                    <button class="faq-trigger" aria-expanded="false" aria-controls="faq-panel-3" id="faq-trigger-3">Do I need to switch CRM or booking software? <span aria-hidden="true">+</span></button>
+                    <div class="faq-content" id="faq-panel-3" role="region" aria-labelledby="faq-trigger-3" hidden>No. Amanda captures the lead and sends you the details by text and email so you can call back from whatever you already use. If you want a deeper integration with your dispatch software, ask on the demo and we will tell you what is supported today.</div>
+                </div>
+                <div class="faq-item">
+                    <button class="faq-trigger" aria-expanded="false" aria-controls="faq-panel-4" id="faq-trigger-4">Should I start with voice, text, or both? <span aria-hidden="true">+</span></button>
+                    <div class="faq-content" id="faq-panel-4" role="region" aria-labelledby="faq-trigger-4" hidden>If most of your leads come by phone, start with voice. If you get a lot of web form fills or text messages, start with text. Voice plus text together costs more but covers both channels at once. We will recommend the best fit on the demo.</div>
+                </div>
+                <div class="faq-item">
+                    <button class="faq-trigger" aria-expanded="false" aria-controls="faq-panel-5" id="faq-trigger-5">What happens after Amanda qualifies a lead? <span aria-hidden="true">+</span></button>
+                    <div class="faq-content" id="faq-panel-5" role="region" aria-labelledby="faq-trigger-5" hidden>You get the lead details by text and email right after the conversation: name, company, service area, the issue they need help with, and any preference they shared. From there your team calls back to book the job.</div>
+                </div>
+                <div class="faq-item">
+                    <button class="faq-trigger" aria-expanded="false" aria-controls="faq-panel-6" id="faq-trigger-6">What if Amanda does not know an answer? <span aria-hidden="true">+</span></button>
+                    <div class="faq-content" id="faq-panel-6" role="region" aria-labelledby="faq-trigger-6" hidden>Amanda is trained to say so rather than guess, then offer to take a message or book a quick call with your team. We tune the knowledge base over time so the same gap does not happen twice.</div>
+                </div>
+                <div class="faq-item">
+                    <button class="faq-trigger" aria-expanded="false" aria-controls="faq-panel-7" id="faq-trigger-7">Can Amanda cover after-hours and weekends? <span aria-hidden="true">+</span></button>
+                    <div class="faq-content" id="faq-panel-7" role="region" aria-labelledby="faq-trigger-7" hidden>Yes. The agents run around the clock by default. You decide whether after-hours leads get a callback the next morning, an immediate text confirmation, or a hand-off path you define.</div>
+                </div>
+                <div class="faq-item">
+                    <button class="faq-trigger" aria-expanded="false" aria-controls="faq-panel-8" id="faq-trigger-8">Who owns the lead data? <span aria-hidden="true">+</span></button>
+                    <div class="faq-content" id="faq-panel-8" role="region" aria-labelledby="faq-trigger-8" hidden>You do. Every conversation, transcript, and contact captured belongs to your business. If you ever stop using Alpha Leverage, you take your data with you.</div>
+                </div>
+                <div class="faq-item">
+                    <button class="faq-trigger" aria-expanded="false" aria-controls="faq-panel-9" id="faq-trigger-9">Is there a long contract? <span aria-hidden="true">+</span></button>
+                    <div class="faq-content" id="faq-panel-9" role="region" aria-labelledby="faq-trigger-9" hidden>No long contracts. Plans are month to month. The setup fee is one time. Ask on the demo for current terms.</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="section" style="background: var(--surface)">
+        <div class="container">
+            <div class="calc-card" style="padding: 48px; border-color: var(--accent);">
+                <div class="text-center mb-24">
+                    <h2 class="title-accent">Ready to stop leaking leads?</h2>
+                    <p style="margin-top: 12px;">Enter your details and we'll tailor Amanda to your plumbing business.</p>
+                </div>
+                <form id="contact-form" action="https://formspree.io/f/xqenkwvb" method="POST" style="display: grid; gap: 20px;" novalidate>
+                    <input type="hidden" name="_subject" value="New Alpha Leverage demo request">
+                    <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 20px;">
+                        <div>
+                            <label for="contact-name" class="sr-only">Your name</label>
+                            <input type="text" id="contact-name" name="name" placeholder="Your Name" required autocomplete="name" class="form-input" style="width: 100%;">
+                        </div>
+                        <div>
+                            <label for="contact-business" class="sr-only">Business type</label>
+                            <select id="contact-business" name="business_type" required class="form-input" style="width: 100%;">
+                                <option value="" disabled selected>Business Type</option>
+                                <option>Plumbing</option>
+                                <option>HVAC</option>
+                                <option>Electrical</option>
+                                <option>Roofing</option>
+                            </select>
+                        </div>
+                    </div>
+                    <label for="contact-phone" class="sr-only">Phone number</label>
+                    <input type="tel" id="contact-phone" name="phone" placeholder="Phone Number" required autocomplete="tel" class="form-input">
+                    <label for="contact-email" class="sr-only">Email address</label>
+                    <input type="email" id="contact-email" name="email" placeholder="Email Address" required autocomplete="email" class="form-input">
+                    <button type="submit" class="btn btn-primary" id="form-submit" style="width: 100%">Claim My Demo</button>
+                    <div class="form-feedback" id="form-feedback" role="status" aria-live="polite"></div>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-brand">Alpha Leverage</div>
+                <nav class="footer-links" aria-label="Footer">
+                    <a href="#demo">Meet Amanda</a>
+                    <a href="#pricing">Pricing</a>
+                    <a href="#faq">FAQ</a>
+                    <a href="#contact">Contact</a>
+                </nav>
+            </div>
+            <p>&copy; 2026 Alpha Leverage. AI receptionists for plumbing companies.</p>
+        </div>
+    </footer>
+
+    <section class="cookie-banner" id="cookie-banner" aria-label="Cookie consent" hidden>
+        <div class="cookie-banner__content">
+            <p>We use cookies to improve performance and understand site traffic. You can accept, reject, or manage non-essential cookies.</p>
+            <div class="cookie-banner__actions">
+                <button type="button" class="btn btn-primary cookie-action" id="cookie-accept">Accept all</button>
+                <button type="button" class="btn btn-secondary cookie-action" id="cookie-reject">Reject non-essential</button>
+                <button type="button" class="cookie-manage" id="cookie-manage">Manage preferences</button>
+            </div>
+        </div>
+    </section>
+    <script src="https://widgets.leadconnectorhq.com/loader.js" data-resources-url="https://widgets.leadconnectorhq.com/chat-widget/loader.js" data-widget-id="6a020d25218c3a6ea568220c"></script>
+    <script src="script.js?v=20260511-ghl-only" defer></script>
+</body>
+</html>
+
+

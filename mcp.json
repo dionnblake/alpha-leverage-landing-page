@@ -1,0 +1,10 @@
+{
+  "mcpServers": {
+    "hostinger-api": {
+      "command": "hostinger-api-mcp",
+      "env": {
+        "APITOKEN": "${APITOKEN}"
+      }
+    }
+  }
+}

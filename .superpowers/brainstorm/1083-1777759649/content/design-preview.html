@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Alpha Leverage — Design Preview</title>
+<script src="https://cdn.tailwindcss.com"></script>
+<link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+<style>
+  body { font-family: 'Outfit', sans-serif; margin: 0; background: #111; }
+  .preview-banner {
+    position: fixed; top: 0; left: 0; right: 0; z-index: 9999;
+    background: #1e40af; color: white; text-align: center;
+    padding: 8px 16px; font-size: 13px; font-weight: 600;
+    letter-spacing: 0.04em;
+  }
+  .preview-banner span { opacity: 0.7; margin-left: 8px; }
+  main { padding-top: 36px; }
+</style>
+</head>
+<body>
+
+<div class="preview-banner">DESIGN PREVIEW — Alpha Leverage 6-Section Layout <span>scroll to review all sections</span></div>
+
+<main class="min-h-screen bg-[#05070D] text-white antialiased" style="font-family:'Outfit',sans-serif">
+
+  <!-- HERO -->
+  <section class="relative overflow-hidden py-20 sm:py-28" style="background: radial-gradient(circle at top right, #123B7A 0%, #05070D 38%, #02040A 100%)">
+    <div class="absolute inset-0" style="background: linear-gradient(to bottom, rgba(255,255,255,0.04), transparent)"></div>
+    <div class="relative mx-auto w-full max-w-7xl px-5 sm:px-6 lg:px-8">
+      <div class="grid items-center gap-12 lg:grid-cols-2">
+        <!-- Left -->
+        <div>
+          <div class="mb-4 inline-flex items-center rounded-full border border-white/10 bg-white/5 px-3 py-1 text-xs font-semibold tracking-wide text-blue-100">
+            Alpha Leverage
+          </div>
+          <h1 class="max-w-2xl text-4xl font-black tracking-tight sm:text-5xl lg:text-6xl leading-tight">
+            Stop Losing Leads to Slow Response
+          </h1>
+          <p class="mt-6 max-w-xl text-lg leading-8 text-slate-300">
+            We help local businesses respond instantly, keep conversations moving, and book more jobs from the leads they already have.
+          </p>
+          <div class="mt-8 flex flex-col gap-3 sm:flex-row">
+            <a href="#text-demo" class="inline-flex items-center justify-center rounded-xl bg-blue-500 px-6 py-4 text-sm font-bold text-white shadow-lg transition hover:bg-blue-400">
+              See It In Action →
+            </a>
+            <a href="#money-impact" class="inline-flex items-center justify-center rounded-xl border border-white/15 bg-white/5 px-6 py-4 text-sm font-bold text-white transition hover:bg-white/10">
+              Calculate Missed Revenue
+            </a>
+          </div>
+          <div class="mt-8 grid gap-3 text-sm text-slate-300 sm:grid-cols-3">
+            <div class="flex items-center gap-2 rounded-xl border border-white/10 bg-white/5 px-4 py-3">
+              <svg class="h-4 w-4 text-blue-300 shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2.5"><path stroke-linecap="round" stroke-linejoin="round" d="M9 12.75L11.25 15 15 9.75M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>
+              <span>Instant lead response</span>
+            </div>
+            <div class="flex items-center gap-2 rounded-xl border border-white/10 bg-white/5 px-4 py-3">
+              <svg class="h-4 w-4 text-blue-300 shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2.5"><path stroke-linecap="round" stroke-linejoin="round" d="M9 12.75L11.25 15 15 9.75M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>
+              <span>Text and voice demo</span>
+            </div>
+            <div class="flex items-center gap-2 rounded-xl border border-white/10 bg-white/5 px-4 py-3">
+              <svg class="h-4 w-4 text-blue-300 shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2.5"><path stroke-linecap="round" stroke-linejoin="round" d="M9 12.75L11.25 15 15 9.75M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>
+              <span>Built for local businesses</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Right: Hero Demo Card -->
+        <div class="rounded-3xl border border-white/10 bg-white/[0.06] p-4 shadow-2xl backdrop-blur">
+          <div class="rounded-2xl bg-[#0B1020] p-5">
+            <div class="mb-5 flex items-center justify-between">
+              <div>
+                <p class="text-sm font-bold text-white">Live Lead Window</p>
+                <p class="text-xs text-slate-400">New inquiry captured</p>
+              </div>
+              <span class="rounded-full bg-green-500/15 px-3 py-1 text-xs font-bold text-green-300">Active</span>
+            </div>
+            <div class="space-y-3">
+              <div class="flex justify-start">
+                <div class="max-w-[82%] rounded-2xl rounded-bl-sm bg-white/10 px-4 py-3 text-sm leading-6 text-slate-100">
+                  <p>Hey, I need a quote ASAP. Are you available today?</p>
+                  <p class="mt-1 text-[11px] text-slate-400">8:41 PM</p>
+                </div>
+              </div>
+              <div class="flex justify-end">
+                <div class="max-w-[82%] rounded-2xl rounded-br-sm bg-blue-500 px-4 py-3 text-sm leading-6 text-white">
+                  <p>Yes. I can help get that started. What service do you need and what city are you in?</p>
+                  <p class="mt-1 text-[11px] text-blue-100">Instant reply</p>
+                </div>
+              </div>
+              <div class="flex justify-start">
+                <div class="max-w-[82%] rounded-2xl rounded-bl-sm bg-white/10 px-4 py-3 text-sm leading-6 text-slate-100">
+                  <p>Kitchen sink leak. Aurora.</p>
+                  <p class="mt-1 text-[11px] text-slate-400">8:42 PM</p>
+                </div>
+              </div>
+              <div class="flex justify-end">
+                <div class="max-w-[82%] rounded-2xl rounded-br-sm bg-blue-500 px-4 py-3 text-sm leading-6 text-white">
+                  <p>Got it. I can collect the details and help schedule the next step.</p>
+                  <p class="mt-1 text-[11px] text-blue-100">Instant reply</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROBLEM (light) -->
+  <section class="bg-slate-50 py-20 text-slate-950 sm:py-24">
+    <div class="mx-auto w-full max-w-7xl px-5 sm:px-6 lg:px-8">
+      <div class="mx-auto max-w-3xl text-center">
+        <div class="mb-4 inline-flex items-center rounded-full border border-slate-200 bg-white px-3 py-1 text-xs font-semibold tracking-wide text-slate-700">
+          The real leak
+        </div>
+        <h2 class="text-3xl font-black tracking-tight sm:text-4xl">Most businesses do not have a lead problem. They have a response problem.</h2>
+        <p class="mt-5 text-lg leading-8 text-slate-600">A lead comes in. Nobody answers fast enough. The customer moves to the next business. That is where the money disappears.</p>
+      </div>
+      <div class="mt-12 grid gap-5 md:grid-cols-3">
+        <div class="rounded-3xl border border-slate-200 bg-white p-7 shadow-sm">
+          <div class="mb-5 flex h-12 w-12 items-center justify-center rounded-2xl bg-blue-50 text-blue-600">
+            <svg class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M8 12h.01M12 12h.01M16 12h.01M21 12c0 4.418-4.03 8-9 8a9.863 9.863 0 01-4.255-.949L3 20l1.395-3.72C3.512 15.042 3 13.574 3 12c0-4.418 4.03-8 9-8s9 3.582 9 8z"/></svg>
+          </div>
+          <h3 class="text-xl font-black">Lead comes in</h3>
+          <p class="mt-3 leading-7 text-slate-600">Someone is ready to buy, schedule, or ask for a quote.</p>
+        </div>
+        <div class="rounded-3xl border border-slate-200 bg-white p-7 shadow-sm">
+          <div class="mb-5 flex h-12 w-12 items-center justify-center rounded-2xl bg-blue-50 text-blue-600">
+            <svg class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+          </div>
+          <h3 class="text-xl font-black">Response is slow</h3>
+          <p class="mt-3 leading-7 text-slate-600">The team is busy, closed, driving, or already helping another customer.</p>
+        </div>
+        <div class="rounded-3xl border border-slate-200 bg-white p-7 shadow-sm">
+          <div class="mb-5 flex h-12 w-12 items-center justify-center rounded-2xl bg-red-50 text-red-500">
+            <svg class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M12 9v3.75m-9.303 3.376c-.866 1.5.217 3.374 1.948 3.374h14.71c1.73 0 2.813-1.874 1.948-3.374L13.949 3.378c-.866-1.5-3.032-1.5-3.898 0L2.697 16.126zM12 15.75h.007v.008H12v-.008z"/></svg>
+          </div>
+          <h3 class="text-xl font-black">Job goes elsewhere</h3>
+          <p class="mt-3 leading-7 text-slate-600">The customer does not wait. They contact the next business on the list.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- TEXT DEMO (dark) -->
+  <section id="text-demo" class="bg-[#05070D] py-20 sm:py-24">
+    <div class="mx-auto w-full max-w-7xl px-5 sm:px-6 lg:px-8">
+      <div class="grid items-center gap-12 lg:grid-cols-2">
+        <!-- Left: explanation -->
+        <div>
+          <div class="mb-4 inline-flex items-center rounded-full border border-white/10 bg-white/5 px-3 py-1 text-xs font-semibold tracking-wide text-blue-100">
+            Text agent demo
+          </div>
+          <h2 class="text-3xl font-black tracking-tight sm:text-4xl">Missed messages are lost jobs.</h2>
+          <p class="mt-5 text-lg leading-8 text-slate-300">See exactly what your lead experiences when they text in and get a response before they can look up another number.</p>
+          <div class="mt-8 space-y-4">
+            <div class="flex gap-4 rounded-2xl border border-white/10 bg-white/[0.04] p-5">
+              <div class="flex h-9 w-9 shrink-0 items-center justify-center rounded-full bg-blue-500 text-sm font-black">01</div>
+              <div>
+                <h3 class="font-bold text-white">Lead asks for help</h3>
+                <p class="mt-1 text-sm leading-6 text-slate-400">A real local-service scenario — not a generic greeting.</p>
+              </div>
+            </div>
+            <div class="flex gap-4 rounded-2xl border border-white/10 bg-white/[0.04] p-5">
+              <div class="flex h-9 w-9 shrink-0 items-center justify-center rounded-full bg-blue-500 text-sm font-black">02</div>
+              <div>
+                <h3 class="font-bold text-white">System responds instantly</h3>
+                <p class="mt-1 text-sm leading-6 text-slate-400">Speed, clarity, and basic qualification — no waiting.</p>
+              </div>
+            </div>
+            <div class="flex gap-4 rounded-2xl border border-white/10 bg-white/[0.04] p-5">
+              <div class="flex h-9 w-9 shrink-0 items-center justify-center rounded-full bg-blue-500 text-sm font-black">03</div>
+              <div>
+                <h3 class="font-bold text-white">Conversation moves forward</h3>
+                <p class="mt-1 text-sm leading-6 text-slate-400">The business does not lose the opportunity just because nobody was available.</p>
+              </div>
+            </div>
+          </div>
+          <!-- Real chat button placeholder -->
+          <div class="mt-8 rounded-2xl border border-blue-500/30 bg-blue-500/10 p-5">
+            <p class="text-sm font-bold text-blue-200">Live text demo</p>
+            <p class="mt-1 text-sm text-slate-400">The real Vapi chat widget opens here when you click the button below.</p>
+            <button class="mt-4 inline-flex items-center justify-center rounded-xl bg-white/10 border border-white/20 px-5 py-3 text-sm font-bold text-white hover:bg-white/15 transition">
+              Text with Clara →
+            </button>
+          </div>
+        </div>
+
+        <!-- Right: phone mockup -->
+        <div class="mx-auto w-full max-w-md rounded-[2rem] border border-white/10 bg-slate-950 p-3 shadow-2xl">
+          <div class="rounded-[1.5rem] bg-[#101827] p-5">
+            <div class="mb-5 flex items-center gap-3 border-b border-white/10 pb-4">
+              <div class="flex h-10 w-10 items-center justify-center rounded-full bg-blue-500 font-black text-sm">AL</div>
+              <div>
+                <p class="font-bold text-white">Alpha Leverage</p>
+                <p class="text-xs text-green-300">● Responding now</p>
+              </div>
+            </div>
+            <div class="space-y-3">
+              <div class="flex justify-start">
+                <div class="max-w-[82%] rounded-2xl rounded-bl-sm bg-white/10 px-4 py-3 text-sm leading-6 text-slate-100">
+                  <p>Hey, I need a quote ASAP</p>
+                  <p class="mt-1 text-[11px] text-slate-400">9:14 AM</p>
+                </div>
+              </div>
+              <div class="flex justify-end">
+                <div class="max-w-[82%] rounded-2xl rounded-br-sm bg-blue-500 px-4 py-3 text-sm leading-6 text-white">
+                  <p>Absolutely. What type of service do you need and what city are you in?</p>
+                  <p class="mt-1 text-[11px] text-blue-100">Instant</p>
+                </div>
+              </div>
+              <div class="flex justify-start">
+                <div class="max-w-[82%] rounded-2xl rounded-bl-sm bg-white/10 px-4 py-3 text-sm leading-6 text-slate-100">
+                  <p>Water heater issue in Aurora.</p>
+                  <p class="mt-1 text-[11px] text-slate-400">9:15 AM</p>
+                </div>
+              </div>
+              <div class="flex justify-end">
+                <div class="max-w-[82%] rounded-2xl rounded-br-sm bg-blue-500 px-4 py-3 text-sm leading-6 text-white">
+                  <p>Got it. I can help collect the details and get you routed for the next available appointment.</p>
+                  <p class="mt-1 text-[11px] text-blue-100">Instant</p>
+                </div>
+              </div>
+            </div>
+            <div class="mt-5 rounded-xl bg-blue-500/10 p-4 text-sm text-blue-100">
+              That is what your leads experience instead of waiting.
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- VOICE DEMO (light) -->
+  <section class="bg-slate-50 py-20 text-slate-950 sm:py-24">
+    <div class="mx-auto w-full max-w-7xl px-5 sm:px-6 lg:px-8">
+      <div class="grid items-center gap-12 lg:grid-cols-2">
+        <!-- Left: call flow card -->
+        <div class="rounded-3xl border border-slate-200 bg-white p-6 shadow-sm">
+          <div class="mb-6 flex items-center justify-between">
+            <div>
+              <p class="text-sm font-bold uppercase tracking-wide text-slate-500">Incoming Call</p>
+              <h3 class="mt-1 text-2xl font-black">After-Hours Lead</h3>
+            </div>
+            <div class="flex h-14 w-14 items-center justify-center rounded-2xl bg-blue-50 text-blue-600">
+              <svg class="h-7 w-7" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M2.25 6.75c0 8.284 6.716 15 15 15h2.25a2.25 2.25 0 002.25-2.25v-1.372c0-.516-.351-.966-.852-1.091l-4.423-1.106c-.44-.11-.902.055-1.173.417l-.97 1.293c-.282.376-.769.542-1.21.38a12.035 12.035 0 01-7.143-7.143c-.162-.441.004-.928.38-1.21l1.293-.97c.363-.271.527-.734.417-1.173L6.963 3.102a1.125 1.125 0 00-1.091-.852H4.5A2.25 2.25 0 002.25 4.5v2.25z"/></svg>
+            </div>
+          </div>
+          <div class="space-y-3">
+            <div class="rounded-2xl border border-slate-200 bg-slate-50 p-4">
+              <p class="text-xs font-black uppercase tracking-wide text-slate-500">Caller</p>
+              <p class="mt-1 text-sm leading-6 text-slate-700">Hi, I need someone to come out. I have a leak.</p>
+            </div>
+            <div class="rounded-2xl border border-slate-200 bg-slate-50 p-4">
+              <p class="text-xs font-black uppercase tracking-wide text-slate-500">Voice Agent</p>
+              <p class="mt-1 text-sm leading-6 text-slate-700">I can help with that. What city are you in, and is this an emergency?</p>
+            </div>
+            <div class="rounded-2xl border border-slate-200 bg-slate-50 p-4">
+              <p class="text-xs font-black uppercase tracking-wide text-slate-500">Caller</p>
+              <p class="mt-1 text-sm leading-6 text-slate-700">Aurora. Water is still leaking.</p>
+            </div>
+            <div class="rounded-2xl border border-blue-200 bg-blue-50 p-4">
+              <p class="text-xs font-black uppercase tracking-wide text-blue-700">Result</p>
+              <p class="mt-1 text-sm leading-6 text-slate-700">Lead captured, urgency flagged, callback details collected.</p>
+            </div>
+          </div>
+          <!-- Real voice button placeholder -->
+          <div class="mt-5 rounded-2xl border border-blue-200 bg-blue-50 p-4">
+            <p class="text-xs font-bold text-blue-700 uppercase tracking-wide">Live Voice Demo</p>
+            <button class="mt-3 w-full inline-flex items-center justify-center rounded-xl bg-blue-500 px-5 py-3 text-sm font-bold text-white hover:bg-blue-400 transition">
+              Speak to Clara
+            </button>
+          </div>
+        </div>
+
+        <!-- Right: explanation -->
+        <div>
+          <div class="mb-4 inline-flex items-center rounded-full border border-slate-200 bg-white px-3 py-1 text-xs font-semibold tracking-wide text-slate-700">
+            Voice agent demo
+          </div>
+          <h2 class="text-3xl font-black tracking-tight sm:text-4xl">What happens when you miss a call?</h2>
+          <p class="mt-5 text-lg leading-8 text-slate-600">After-hours calls, weekend inquiries, calls while you are on a job — most go to voicemail. Those are booked jobs you never see.</p>
+          <div class="mt-8 grid gap-4">
+            <div class="rounded-2xl border border-slate-200 bg-white p-5">
+              <h3 class="font-black text-slate-900">Answers the call</h3>
+              <p class="mt-1 text-sm leading-6 text-slate-600">The caller gets a real response instead of voicemail or silence.</p>
+            </div>
+            <div class="rounded-2xl border border-slate-200 bg-white p-5">
+              <h3 class="font-black text-slate-900">Collects the basics</h3>
+              <p class="mt-1 text-sm leading-6 text-slate-600">Name, issue, urgency, location — everything your team needs to call back.</p>
+            </div>
+            <div class="rounded-2xl border border-slate-200 bg-white p-5">
+              <h3 class="font-black text-slate-900">Moves the lead forward</h3>
+              <p class="mt-1 text-sm leading-6 text-slate-600">You get a cleaner lead instead of a missed opportunity on your missed calls list.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- MONEY IMPACT (dark) -->
+  <section id="money-impact" class="bg-[#05070D] py-20 sm:py-24">
+    <div class="mx-auto w-full max-w-7xl px-5 sm:px-6 lg:px-8">
+      <div class="mx-auto max-w-3xl text-center">
+        <div class="mb-4 inline-flex items-center rounded-full border border-white/10 bg-white/5 px-3 py-1 text-xs font-semibold tracking-wide text-blue-100">
+          Revenue impact
+        </div>
+        <h2 class="text-3xl font-black tracking-tight sm:text-4xl">Even a few missed jobs per month becomes real money.</h2>
+        <p class="mt-5 text-lg leading-8 text-slate-300">You do not need complex math. The cost of slow response is obvious once you run the numbers.</p>
+      </div>
+      <div class="mx-auto mt-12 grid max-w-5xl gap-5 grid-cols-2 md:grid-cols-4">
+        <div class="rounded-3xl border border-white/10 bg-white/[0.05] p-7 text-center">
+          <svg class="mx-auto mb-4 h-7 w-7 text-blue-300" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><line x1="12" y1="1" x2="12" y2="23"/><path d="M17 5H9.5a3.5 3.5 0 000 7h5a3.5 3.5 0 010 7H6"/></svg>
+          <p class="text-sm font-bold uppercase tracking-wide opacity-75">Average job</p>
+          <p class="mt-2 text-4xl font-black tracking-tight">$300</p>
+        </div>
+        <div class="rounded-3xl border border-white/10 bg-white/[0.05] p-7 text-center">
+          <svg class="mx-auto mb-4 h-7 w-7 text-blue-300" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><line x1="12" y1="1" x2="12" y2="23"/><path d="M17 5H9.5a3.5 3.5 0 000 7h5a3.5 3.5 0 010 7H6"/></svg>
+          <p class="text-sm font-bold uppercase tracking-wide opacity-75">Missed per month</p>
+          <p class="mt-2 text-4xl font-black tracking-tight">× 4</p>
+        </div>
+        <div class="rounded-3xl border border-white/10 bg-white/[0.05] p-7 text-center">
+          <svg class="mx-auto mb-4 h-7 w-7 text-blue-300" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><line x1="12" y1="1" x2="12" y2="23"/><path d="M17 5H9.5a3.5 3.5 0 000 7h5a3.5 3.5 0 010 7H6"/></svg>
+          <p class="text-sm font-bold uppercase tracking-wide opacity-75">Monthly loss</p>
+          <p class="mt-2 text-4xl font-black tracking-tight">$1,200</p>
+        </div>
+        <div class="rounded-3xl border border-blue-400 bg-blue-500 p-7 text-center text-white">
+          <svg class="mx-auto mb-4 h-7 w-7 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><line x1="12" y1="1" x2="12" y2="23"/><path d="M17 5H9.5a3.5 3.5 0 000 7h5a3.5 3.5 0 010 7H6"/></svg>
+          <p class="text-sm font-bold uppercase tracking-wide opacity-80">Yearly loss</p>
+          <p class="mt-2 text-4xl font-black tracking-tight">$14,400</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FINAL CTA (light) -->
+  <section class="bg-slate-50 py-20 text-slate-950 sm:py-24">
+    <div class="mx-auto w-full max-w-7xl px-5 sm:px-6 lg:px-8">
+      <div class="rounded-3xl bg-white p-8 text-center shadow-sm sm:p-12">
+        <h2 class="mx-auto max-w-3xl text-3xl font-black tracking-tight sm:text-4xl">
+          If you are not 100% sure every lead gets a fast response, there is a gap.
+        </h2>
+        <p class="mx-auto mt-5 max-w-2xl text-lg leading-8 text-slate-600">
+          Alpha Leverage helps close that gap with instant response systems for text and voice leads.
+        </p>
+        <div class="mt-8 flex flex-col items-center gap-3 sm:flex-row sm:justify-center">
+          <a href="#text-demo" class="inline-flex items-center justify-center rounded-xl bg-blue-500 px-7 py-4 text-sm font-bold text-white shadow-lg shadow-blue-500/20 transition hover:bg-blue-400">
+            See How This Works For Your Business →
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<div style="background:#111;color:#666;text-align:center;padding:24px;font-size:12px;font-family:monospace;">
+  DESIGN PREVIEW — Not the live site. Vapi integrations will be wired in during implementation.
+</div>
+
+</body>
+</html>

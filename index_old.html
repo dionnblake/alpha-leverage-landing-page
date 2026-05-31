@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alpha Leverage | Simple Business Automation for Service Professionals</title>
+    <meta name="description" content="Capture every lead and book more jobs with AI-powered communication. Designed for plumbers, HVAC, electricians, and roofers.">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;600;700&display=swap" rel="stylesheet" media="print" onload="this.media='all'">
+    <noscript><link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;600;700&display=swap" rel="stylesheet"></noscript>
+</head>
+<body>
+
+    <header class="hero section">
+        <div class="hero-overlay">
+            <img src="hero.png" alt="Service professional working in a dark, high-tech environment" class="img-fill">
+        </div>
+        <h1>You're already getting the calls. You're just not capturing all of them.</h1>
+        <p>The calls are coming. Your system isn't ready.</p>
+        <div class="hero-actions">
+            <a href="#demo" class="btn btn-primary">See How It Works</a>
+            <a href="#contact" class="btn btn-secondary">Schedule Consultation</a>
+        </div>
+    </header>
+
+    <section id="demo" class="section grid-mesh">
+        <div class="section-header text-center mb-50">
+            <h2 class="title-lg">Watch Your Missed Opportunities Become Booked Jobs</h2>
+        </div>
+        
+        <div class="demo-wrapper">
+            <div class="demo-badge-container">
+                <div class="demo-badge">
+                    <span class="badge-icon">✨</span>
+                    <div class="badge-content">
+                        <span class="badge-title">AI Texting Engagement</span>
+                        <span class="badge-desc">This is the AI texting your future client</span>
+                    </div>
+                </div>
+                <svg class="demo-arrow" width="120" height="60" viewBox="0 0 120 60" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M10 10C30 40 70 45 105 35" stroke="#38BDF8" stroke-width="3" stroke-linecap="round" stroke-dasharray="8 8"/>
+                    <path d="M100 25L110 35L100 45" stroke="#38BDF8" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+            </div>
+            <div class="demo-window">
+                <div id="demo-chat" class="chat-container chat-column">
+                    <!-- Chat bubbles will go here via JS -->
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section section-alt grid-mesh">
+        <div class="container grid grid-2 flex-align-center">
+            <div>
+                <h2 class="mb-20">The High Cost of Silence</h2>
+                <p class="mb-24">When a lead calls and nobody answers, they don't wait. They call the next person on Google. For a service business, a missed call isn't just a phone alert—it's $500 to $5,000 in lost revenue passing directly to your competitor.</p>
+                <ul class="feature-list" style="list-style: none;">
+                    <li style="margin-bottom: 12px; display: flex; gap: 12px; align-items: flex-start;">
+                        <span style="color: var(--accent);">●</span>
+                        <span>Missed calls = lost revenue</span>
+                    </li>
+                    <li style="margin-bottom: 12px; display: flex; gap: 12px; align-items: flex-start;">
+                        <span style="color: var(--accent);">●</span>
+                        <span>"They call someone else" before you can call back</span>
+                    </li>
+                    <li style="margin-bottom: 12px; display: flex; gap: 12px; align-items: flex-start;">
+                        <span style="color: var(--accent);">●</span>
+                        <span>"I was on a job and couldn't answer" is no longer an excuse</span>
+                    </li>
+                </ul>
+            </div>
+            <div class="stat-card" style="background: var(--bg-primary); border: 1px solid var(--border); padding: 40px; border-radius: 16px; text-align: center;">
+                <div class="stat-number" style="font-size: 4rem; font-weight: 800; color: var(--accent);">82%</div>
+                <div class="stat-label" style="font-weight: 600; font-size: 1.1rem; margin: 10px 0;">of customers expect an immediate response.</div>
+                <p class="stat-subtext" style="font-size: 0.9rem;">If you're under the sink or on a roof, you're missing out.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="section">
+        <h2 class="text-center mb-60">The 3-Step Process</h2>
+        <div class="grid grid-3">
+            <div class="card card-v2">
+                <div class="step-num">01</div>
+                <h3>Call comes in while you're on a job</h3>
+                <p>Your hands are busy, but your business doesn't stop. Alpha Leverage detects the missed call instantly.</p>
+            </div>
+            <div class="card card-v2">
+                <div class="step-num">02</div>
+                <h3>AI assistant captures the inquiry</h3>
+                <p>Your virtual assistant reaches out immediately via text, answering questions and gathering job details.</p>
+            </div>
+            <div class="card card-v2">
+                <div class="step-num">03</div>
+                <h3>You follow up when ready</h3>
+                <p>View the complete inquiry info at your convenience. The job is already half-booked before you pick up the phone.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="section">
+        <div class="text-center mb-50">
+            <span class="badge">Revenue Loss Calculator</span>
+            <h2 class="mt-16">How Much Are Missed Calls Costing Your Business?</h2>
+        </div>
+        <div class="calculator-card">
+            <div class="calc-input">
+                <div class="calc-label-row">
+                    <label class="calc-label" for="missed-calls">Missed Calls Per Day</label>
+                    <span id="missed-calls-val" class="calc-value">8</span>
+                </div>
+                <input type="range" id="missed-calls" min="1" max="50" value="8" class="range-input">
+            </div>
+            <div class="calc-input">
+                <div class="calc-label-row">
+                    <label class="calc-label" for="conv-rate">Conversion Rate (%)</label>
+                    <span id="conv-rate-val" class="calc-value">20%</span>
+                </div>
+                <input type="range" id="conv-rate" min="1" max="100" value="20" class="range-input">
+            </div>
+            <div class="calc-input">
+                <div class="calc-label-row">
+                    <label class="calc-label" for="job-value">Average Job Value ($)</label>
+                    <span id="job-value-val" class="calc-value">$500</span>
+                </div>
+                <input type="range" id="job-value" min="50" max="5000" step="50" value="500" class="range-input">
+            </div>
+            
+            <div class="calc-results">
+                <p class="results-title">Estimated Revenue Lost Per Year</p>
+                <div id="total-loss" class="results-value">$292,000</div>
+                <p id="total-missed" class="results-subtext">That's 2,920 missed calls per year</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="section cta-banner">
+        <div class="background-image">
+            <img src="growth.png" alt="Data visualization showing business growth and automation leads" style="width: 100%; height: 100%; object-fit: cover;">
+        </div>
+        <div class="content">
+            <h2 class="mb-16">2,500+</h2>
+            <p class="cta-banner-text">Calls captured monthly for local service owners.</p>
+            <div class="hero-actions flex-center">
+                <a href="#contact" class="btn btn-primary">Request a Live Demo</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="section section-alt grid-mesh">
+        <div class="container grid grid-2 flex-align-center">
+            <div>
+                <h2 class="title-accent">Ready to stop losing jobs?</h2>
+                <p>Simple setup. Real results. No technical headaches.</p>
+                <div class="mt-30">
+                    <p style="font-weight: 700; color: white;">Instant Lead Engagement</p>
+                    <p>Stop letting jobs slip through the cracks. Our system engages your leads the second you miss a call.</p>
+                </div>
+            </div>
+            <form class="contact-form shadow-lg">
+                <div class="input-group">
+                    <label class="input-label">Name</label>
+                    <input type="text" placeholder="John Doe" class="form-input">
+                </div>
+                <div class="input-group">
+                    <label class="input-label">Business Type</label>
+                    <select class="form-input">
+                        <option>Plumbing</option>
+                        <option>HVAC</option>
+                        <option>Electrical</option>
+                        <option>Roofing</option>
+                        <option>Other</option>
+                    </select>
+                </div>
+                <div class="input-group">
+                    <label class="input-label">Phone</label>
+                    <input type="tel" placeholder="(555) 000-0000" class="form-input">
+                </div>
+                <button type="submit" class="btn btn-primary btn-full">See Live Demo</button>
+            </form>
+        </div>
+    </section>
+
+    <section class="section">
+        <h2 class="text-center mb-40">Frequently Asked Questions</h2>
+        <div class="faq-container">
+            <div class="faq-item">
+                <button class="faq-question" aria-expanded="false" aria-controls="faq-answer-1">Does it actually convert?</button>
+                <div id="faq-answer-1" class="faq-answer" role="region">Yes. By responding within 60 seconds of a missed call, you capture leads before they call your competitors. Our users see an average booking increase of 25% within the first month.</div>
+            </div>
+            <div class="faq-item">
+                <button class="faq-question" aria-expanded="false" aria-controls="faq-answer-2">How long does setup take?</button>
+                <div id="faq-answer-2" class="faq-answer" role="region">Setup is handled by our team and usually takes less than 24 hours. We connect to your existing phone line without any downtime.</div>
+            </div>
+            <div class="faq-item">
+                <button class="faq-question" aria-expanded="false" aria-controls="faq-answer-3">What if I don't like it?</button>
+                <div id="faq-answer-3" class="faq-answer" role="region">We offer a 30-day money-back guarantee. If you don't see the value in captured leads, we'll refund your setup fee, no questions asked.</div>
+            </div>
+            <div class="faq-item">
+                <button class="faq-question" aria-expanded="false" aria-controls="faq-answer-4">How much does it cost?</button>
+                <div id="faq-answer-4" class="faq-answer" role="region">Alpha Leverage is a flat $297 per month. That's usually less than the cost of a single booked job, making the system pay for itself immediately.</div>
+            </div>
+            <div class="faq-item">
+                <button class="faq-question" aria-expanded="false" aria-controls="faq-answer-5">Will clients prefer talking to a person?</button>
+                <div id="faq-answer-5" class="faq-answer" role="region">Clients prefer getting an answer. The AI handles the initial inquiry and data collection immediately, ensuring they stop searching and wait for your personal follow-up.</div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="section footer-main">
+        <p class="footer-content">&copy; 2026 Alpha Leverage. Professional Service Business Automation.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
