@@ -46,7 +46,7 @@
             <h1 id="hero-title" data-scramble="YOU'RE ALREADY GETTING THE CALLS YOU'RE JUST NOT CAPTURING ALL OF THEM">YOU'RE ALREADY GETTING THE CALLS YOU'RE JUST NOT CAPTURING ALL OF THEM</h1>
             <p id="hero-sub">The calls are coming. Your system isn't ready. Stop losing thousands in revenue to competitors while you're busy on the job.</p>
             <div class="hero-actions">
-                <button type="button" class="btn btn-primary voice-open" onclick="window.openGhlChatFromCTA && window.openGhlChatFromCTA()" aria-label="Open chat with Amanda">Speak to Amanda</button>
+                <button type="button" class="btn btn-primary voice-open" aria-label="Talk to Amanda">Speak to Amanda</button>
                 <button type="button" class="btn btn-secondary chat-open" aria-label="Open text chat with Amanda">Text with Amanda</button>
             </div>
             <p class="hero-fallback-link">
@@ -124,26 +124,22 @@
                                 <div class="agent-pulse" aria-hidden="true"></div>
                                 <h4>Amanda speaks to you like a human.</h4>
                                 <p>Use voice for a natural conversation with Amanda, our virtual receptionist for plumbing companies.</p>
-                                <div class="agent-status" id="agent-status" role="status" aria-live="polite">Amanda chat is ready.</div>
+                                <div class="agent-status" id="agent-status" role="status" aria-live="polite">Amanda voice is ready.</div>
                             </div>
                             <div class="agent-actions">
-                                <button type="button" class="btn btn-primary" id="agent-start" onclick="window.openGhlChatFromCTA && window.openGhlChatFromCTA()" style="width: 100%; justify-content: center;" aria-label="Open chat with Amanda">Talk to Amanda</button>
+                                <button type="button" class="btn btn-primary" id="agent-start" style="width: 100%; justify-content: center;" aria-label="Talk to Amanda">Talk to Amanda</button>
                             </div>
                         </div>
 
                         <div class="agent-panel demo-mode-card">
                             <div>
-                                <span class="mode-label">TEXT WITH AMANDA</span>
-                                <h4>Amanda texts you like a person.</h4>
-                                <p>Use webchat for the same Amanda conversation in a text-message style.</p>
-                                <div class="chat-preview" aria-hidden="true">
-                                    <div class="chat-preview-bubble inbound">I run a plumbing company. How does this work?</div>
-                                    <div class="chat-preview-bubble outbound">Amanda qualifies your business, explains voice and text agents, and can help book a demo.</div>
-                                </div>
+                                <span class="mode-label">REQUEST A DEMO</span>
+                                <h4>See Amanda work your phones.</h4>
+                                <p>Send your details and we'll tailor a live Amanda demo for your business.</p>
                             </div>
                             <div class="agent-actions">
-                                <button type="button" class="btn btn-secondary chat-open" onclick="window.openGhlChatFromCTA && window.openGhlChatFromCTA()" style="width: 100%; justify-content: center;" aria-label="Open text chat with Amanda">Text with Amanda</button>
-                                <span class="agent-link">Start a text conversation with Amanda for your website visitors.</span>
+                                <button type="button" class="btn btn-secondary chat-open" onclick="document.getElementById('contact') && document.getElementById('contact').scrollIntoView({behavior:'smooth', block:'start'})" style="width: 100%; justify-content: center;" aria-label="Request a demo">Request a demo</button>
+                                <span class="agent-link">Get a personalized walkthrough for your shop.</span>
                             </div>
                         </div>
                     </div>
@@ -395,8 +391,8 @@
             </div>
         </div>
     </section>
-    <script src="https://widgets.leadconnectorhq.com/loader.js" data-resources-url="https://widgets.leadconnectorhq.com/chat-widget/loader.js" data-widget-id="6a020d25218c3a6ea568220c"></script>
-    <script src="script.js?v=20260511-ghl-only" defer></script>
+    <script> var vapiInstance = null; const vapiAssistantId = "ed350803-b4fd-4b0c-bb43-87718bde3ac1"; const vapiPublicKey = "56106606-8f63-452c-ba7c-e426f9b9a1a2"; (function (d, t) { var g = document.createElement(t), s = d.getElementsByTagName(t)[0]; g.src = "https://cdn.jsdelivr.net/gh/VapiAI/html-script-tag@latest/dist/assets/index.js"; g.defer = true; g.async = true; s.parentNode.insertBefore(g, s); g.onload = function () { vapiInstance = window.vapiSDK.run({ apiKey: vapiPublicKey, assistant: vapiAssistantId, config: {}, }); }; })(document, "script"); </script>
+    <script src="script.js?v=20261010-vapi" defer></script>
 </body>
 </html>
 
