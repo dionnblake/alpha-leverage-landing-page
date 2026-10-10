@@ -1,24 +1,7 @@
 const prefersReducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
 const COOKIE_CONSENT_KEY = 'alpha_cookie_consent_v1';
-window.openGhlChatFromCTA = () => {
-    const ghlApi = window.leadConnector && window.leadConnector.chatWidget;
-    if(ghlApi && typeof ghlApi.openWidget === 'function') {
-        ghlApi.openWidget();
-        return true;
-    }
+window.startAmandaCall = () => { const beginCall = () => { if (window.vapiInstance && typeof window.vapiInstance.start === 'function') { window.vapiInstance.start(); return true; } return false; }; if (beginCall()) return true; let tries = 0; const timer = setInterval(() => { tries++; if (beginCall()) { clearInterval(timer); } else if (tries > 25) { clearInterval(timer); const contact = document.getElementById('contact'); if (contact) { contact.scrollIntoView({ behavior: prefersReducedMotion ? 'auto' : 'smooth', block: 'start' }); } } }, 200); return true; };
 
-    const launcher = document.querySelector('#chat-widget-container button, button[class*="chat"], button[aria-label*="chat" i]');
-    if(launcher && typeof launcher.click === 'function') {
-        launcher.click();
-        return true;
-    }
-
-    const contact = document.getElementById('contact');
-    if(contact) {
-        contact.scrollIntoView({ behavior: prefersReducedMotion ? 'auto' : 'smooth', block: 'start' });
-    }
-    return false;
-};
 
         // 1. Mesh Background
         (function(){
@@ -135,13 +118,13 @@ window.openGhlChatFromCTA = () => {
             }, {passive: true});
         }
 
-        // 4. Wire page CTAs to GoHighLevel widget + cookie banner
+        // 4. Wire page CTAs to voice agent + cookie banner
         window.addEventListener('load', () => {
             const cookieBanner = document.getElementById('cookie-banner');
             const cookieAccept = document.getElementById('cookie-accept');
             const cookieReject = document.getElementById('cookie-reject');
             const cookieManage = document.getElementById('cookie-manage');
-            const ctaButtons = document.querySelectorAll('#agent-start, .voice-open, .chat-open');
+            const ctaButtons = document.querySelectorAll('#agent-start, .voice-open');
 
             const saveConsent = (choice) => {
                 try {
@@ -200,7 +183,7 @@ window.openGhlChatFromCTA = () => {
 
             ctaButtons.forEach((button) => {
                 button.addEventListener('click', () => {
-                    window.openGhlChatFromCTA();
+                    window.startAmandaCall();
                 });
             });
         });
